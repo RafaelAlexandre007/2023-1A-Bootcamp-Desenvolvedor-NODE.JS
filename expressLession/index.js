@@ -1,8 +1,10 @@
 import express from "express";
+import carrosRouter from "./carrosRouter.js";
 
 const app = express();
 
 app.use(express.json());
+
 
 /*
 //Aula 1
@@ -105,6 +107,20 @@ app.route("/testeRoute")
         res.send("/testeRoute DELETE");
     })
 
+
+
+//Nível aplicação
+app.use((req, res, next) => {
+    console.log(new Date());
+    next();
+})
+
+//Nível roteador
+app.use("/carros", carrosRouter);
+
+
+
+//-----------------------------
 app.listen(3000, () => {
     console.log("API Started!")
 })
