@@ -118,7 +118,30 @@ app.use((req, res, next) => {
 //Nível roteador
 app.use("/carros", carrosRouter);
 
+//Tratamento de erros
+app.get("/erro1", (req, res) => {
+    throw new Error("Error message test");
+})
 
+app.get("/erro1", async (req, res, next) => {
+    try {
+        
+        throw new Error("Error message async");
+    } catch (error) {
+        next(error)
+    }
+})
+
+app.use((err, req, res, next) => {
+    console.log("Erro1");
+    res.status(500).send("Ocorreu o erro1");
+    next(err);
+})
+app.use((err, req, res, next) => {
+    console.log("Erro2");
+    res.status(500).send("Ocorreu o erro2");
+
+})
 
 //-----------------------------
 app.listen(3000, () => {
