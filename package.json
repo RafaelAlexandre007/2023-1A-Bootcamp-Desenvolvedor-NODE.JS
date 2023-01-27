@@ -1,0 +1,24 @@
+{
+  "name": "my-bank-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelAlexandre007/2023-1A-Bootcamp-Desenvolvedor-NODE.JS.git"
+  },
+  "author": "Rafael Alexandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelAlexandre007/2023-1A-Bootcamp-Desenvolvedor-NODE.JS/issues"
+  },
+  "homepage": "https://github.com/RafaelAlexandre007/2023-1A-Bootcamp-Desenvolvedor-NODE.JS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
