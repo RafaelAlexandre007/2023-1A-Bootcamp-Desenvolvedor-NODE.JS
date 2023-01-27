@@ -44,6 +44,19 @@ router.get("/:id", async (req, res) => {
     }
 })
 
+router.delete("/:id", async (req, res) => {
+    try {
+        const data = JSON.parse(await readFile(global.fileName));
+        data.accounts = data.accounts.filter(account => account.id !== parseInt(req.params.id));
+
+        await writeFile(global.fileName, JSON.stringify(data));
+
+        res.end();
+
+    } catch (err) {
+        res.status(400).send({ error: err.message });
+    }
+})
 
 
 //
