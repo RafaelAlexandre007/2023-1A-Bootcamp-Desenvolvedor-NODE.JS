@@ -5,7 +5,7 @@ const { readFile, writeFile } = fs;
 
 const router = express.Router();
 
-router.post("/", async (req, res) => {
+router.post("/", async (req, res, next) => {
 
     try {
         let account = req.body;
@@ -18,33 +18,35 @@ router.post("/", async (req, res) => {
 
         res.send(account);
 
+        logger.info(`POST /account ${JSON.stringify(account)}`)
+
     } catch (err) {
-        res.status(400).send({ error: err.message })
+        next(err);
     }
 })
 
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
     try {
         const data = JSON.parse(await readFile(global.fileName));
         delete data.nextId;
         res.send(data);
     } catch (err) {
-        res.status(400).send({ error: err.message });
+        next(err);
     }
 })
 
-router.get("/:id", async (req, res) => {
+router.get("/:id", async (req, res, err) => {
     try {
         const data = JSON.parse(await readFile(global.fileName));
         const account = data.accounts.find(account => account.id === parseInt(req.params.id));
         res.send(account);
 
     } catch (err) {
-        res.status(400).send({ error: err.message });
+        next(err);
     }
 })
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", async (req, res, next) => {
     try {
         const data = JSON.parse(await readFile(global.fileName));
         data.accounts = data.accounts.filter(account => account.id !== parseInt(req.params.id));
@@ -54,11 +56,11 @@ router.delete("/:id", async (req, res) => {
         res.end();
 
     } catch (err) {
-        res.status(400).send({ error: err.message });
+        next(err);
     }
 })
 
-router.put("/", async (req, res) => {
+router.put("/", async (req, res, next) => {
     try {
         const account = req.body;
 
@@ -71,11 +73,11 @@ router.put("/", async (req, res) => {
 
         res.send(account);
     } catch (err) {
-        res.status(400).send({ error: err.message });
+        next(err)
 
     }
 });
-router.patch("/updatebalance", async (req, res) => {
+router.patch("/updatebalance", async (req, res, next) => {
     try {
         const account = req.body;
 
@@ -88,12 +90,16 @@ router.patch("/updatebalance", async (req, res) => {
 
         res.send(data.accounts[index]);
     } catch (err) {
-        res.status(400).send({ error: err.message });
+        next(err);
 
     }
 });
 
-
+//Tratamento de erros
+router.use((err, req, res, next) => {
+    global.loggers.error(`${err.message}`);
+    res.status(400).send({ error: err.message })
+})
 
 
 //
