@@ -1,6 +1,6 @@
 import express from "express";
 import winston from "winston"; //gravação de logs
-import accountRouter from "./routes/accounts.js";
+import accountRouter from "./routes/accounts.routes.js";
 import { promises as fs } from "fs";
 import cors from "cors";
 import swaggerUI from "swagger-ui-express";
