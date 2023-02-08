@@ -1,9 +1,6 @@
 import { promises as fs } from "fs";
 import AccountService from "../services/account.service.js"
 
-const { readFile, writeFile } = fs;
-
-
 async function createAccount(req, res, next) {
     try {
         let account = req.body;
@@ -26,7 +23,7 @@ async function createAccount(req, res, next) {
 async function getAccount(req, res, next) {
     try {
 
-        res.send(await AccountService.getAccounts());
+        res.send(await AccountService.getAccounts(req.params.id));
         logger.info(`GET /account`)
 
     } catch (err) {
@@ -48,10 +45,8 @@ async function getAccountId(req, res, next) {
 
 async function deleteAccount(req, res, next) {
     try {
-        const data = JSON.parse(await readFile(global.fileName));
-        data.accounts = data.accounts.filter(account => account.id !== parseInt(req.params.id));
 
-        await writeFile(global.fileName, JSON.stringify(data, null, 2));
+        await AccountService.deleteAccount(req.params.id);
 
         res.send(`Account id:${req.params.id} deletado com sucesso!`);
 
@@ -70,20 +65,7 @@ async function putAccount(req, res, next) {
             throw new Error("Name e Balance são obrigatórios!");
         }
 
-        const data = JSON.parse(await readFile(global.fileName));
-        const index = data.accounts.findIndex(a => a.id === account.id);
-
-        //Validação
-        if (index === -1) {
-            throw new Error("Registro não encontrado.");
-        }
-
-        data.accounts[index].name = account.name;
-        data.accounts[index].balance = account.balance;
-
-        await writeFile(global.fileName, JSON.stringify(data, null, 2));
-
-        res.send(account);
+        res.send(await AccountService.putAccount(account));
         logger.info(`PUT /account ${JSON.stringify(account)}`)
 
     } catch (err) {
@@ -95,19 +77,11 @@ async function putAccount(req, res, next) {
 async function patchAccount(req, res, next) {
     try {
         const account = req.body;
-
-        const data = JSON.parse(await readFile(global.fileName));
-        const index = data.accounts.findIndex(a => a.id === account.id);
-
         if (!account.id || account.balance == null) {
             throw new Error("ID e Balance são obrigatórios!");
         }
 
-        data.accounts[index].balance = account.balance;
-
-        await writeFile(global.fileName, JSON.stringify(data));
-
-        res.send(data.accounts[index]);
+        res.send(await AccountService.patchAccount(account));
         logger.info(`PATCH /account/updatebalance ${JSON.stringify(account)}`)
 
     } catch (err) {

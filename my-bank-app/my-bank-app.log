@@ -1,228 +1,45 @@
-2023-02-04T22:30:55.867Z [my-bank-app] info: API Started!
-2023-02-04T22:31:07.654Z [my-bank-app] info: GET /account
-2023-02-04T22:31:40.192Z [my-bank-app] info: POST /account {"id":7,"name":"IRON","balance":200}
-2023-02-04T22:31:51.065Z [my-bank-app] info: GET /account/id undefined
-2023-02-04T22:33:16.860Z [my-bank-app] info: GET /account/id undefined
-2023-02-04T22:33:24.219Z [my-bank-app] info: GET /account/id undefined
-2023-02-04T22:33:28.210Z [my-bank-app] info: GET /account/id {"id":3,"name":"Rafael","balance":200}
-2023-02-04T22:34:21.875Z [my-bank-app] info: DELETE /account/id 3
-2023-02-04T22:35:31.597Z [my-bank-app] info: API Started!
-2023-02-04T22:35:44.569Z [my-bank-app] info: API Started!
-2023-02-04T22:35:46.677Z [my-bank-app] info: API Started!
-2023-02-04T22:35:52.485Z [my-bank-app] info: API Started!
-2023-02-04T22:36:06.082Z [my-bank-app] info: GET /account
-2023-02-04T22:36:12.694Z [my-bank-app] info: DELETE /account/id 4
-2023-02-04T22:36:39.710Z [my-bank-app] info: API Started!
-2023-02-04T22:36:45.972Z [my-bank-app] info: API Started!
-2023-02-04T22:37:02.728Z [my-bank-app] info: API Started!
-2023-02-04T22:37:22.780Z [my-bank-app] info: API Started!
-2023-02-04T22:37:26.022Z [my-bank-app] info: API Started!
-2023-02-04T22:37:28.050Z [my-bank-app] info: API Started!
-2023-02-04T22:37:34.293Z [my-bank-app] info: API Started!
-2023-02-04T22:37:40.334Z [my-bank-app] info: GET /account
-2023-02-04T22:37:46.579Z [my-bank-app] info: DELETE /account/id 5
-2023-02-04T22:37:55.107Z [my-bank-app] info: API Started!
-2023-02-04T22:40:58.746Z [my-bank-app] info: GET /account
-2023-02-04T22:41:29.501Z [my-bank-app] info: GET /account
-2023-02-04T22:41:55.565Z [my-bank-app] info: API Started!
-2023-02-04T22:41:58.868Z [my-bank-app] info: GET /account
-2023-02-04T22:43:02.975Z [my-bank-app] info: API Started!
-2023-02-04T22:43:04.003Z [my-bank-app] info: API Started!
-2023-02-04T22:44:17.816Z [my-bank-app] info: API Started!
-2023-02-04T22:45:37.087Z [my-bank-app] info: API Started!
-2023-02-04T22:45:42.910Z [my-bank-app] info: API Started!
-2023-02-04T22:46:41.008Z [my-bank-app] info: GET /account
-2023-02-04T22:46:59.411Z [my-bank-app] info: API Started!
-2023-02-04T22:47:15.123Z [my-bank-app] info: API Started!
-2023-02-04T22:47:28.112Z [my-bank-app] info: POST /account {"id":0,"name":"José","balance":0}
-2023-02-04T22:48:19.928Z [my-bank-app] info: API Started!
-2023-02-04T22:48:25.911Z [my-bank-app] info: API Started!
-2023-02-04T22:48:33.789Z [my-bank-app] info: API Started!
-2023-02-04T22:48:35.673Z [my-bank-app] info: API Started!
-2023-02-04T22:53:03.029Z [my-bank-app] info: API Started!
-2023-02-04T22:53:50.794Z [my-bank-app] info: API Started!
-2023-02-04T22:54:05.152Z [my-bank-app] info: API Started!
-2023-02-04T22:54:47.096Z [my-bank-app] info: API Started!
-2023-02-04T22:54:53.463Z [my-bank-app] info: API Started!
-2023-02-04T22:54:56.647Z [my-bank-app] info: API Started!
-2023-02-04T22:54:59.374Z [my-bank-app] info: API Started!
-2023-02-04T22:55:00.450Z [my-bank-app] info: API Started!
-2023-02-04T22:55:02.629Z [my-bank-app] info: API Started!
-2023-02-04T22:55:04.552Z [my-bank-app] info: API Started!
-2023-02-04T22:55:06.387Z [my-bank-app] info: API Started!
-2023-02-04T22:55:09.751Z [my-bank-app] info: API Started!
-2023-02-04T22:55:13.831Z [my-bank-app] info: API Started!
-2023-02-04T22:55:17.206Z [my-bank-app] info: API Started!
-2023-02-04T22:55:21.247Z [my-bank-app] info: API Started!
-2023-02-04T22:55:24.328Z [my-bank-app] info: API Started!
-2023-02-04T22:55:25.379Z [my-bank-app] info: API Started!
-2023-02-04T22:56:47.914Z [my-bank-app] info: API Started!
-2023-02-04T22:59:13.292Z [my-bank-app] info: API Started!
-2023-02-04T23:00:14.781Z [my-bank-app] info: API Started and File Create
-2023-02-04T23:00:31.651Z [my-bank-app] info: API Started!
-2023-02-04T23:00:35.705Z [my-bank-app] info: API Started!
-2023-02-04T23:01:38.786Z [my-bank-app] info: API Started!
-2023-02-04T23:01:41.548Z [my-bank-app] info: GET /account
-2023-02-04T23:02:02.484Z [my-bank-app] info: POST /account {"id":0,"name":"Rafael","balance":1000}
-2023-02-04T23:02:11.064Z [my-bank-app] info: API Started!
-2023-02-04T23:02:37.394Z [my-bank-app] info: API Started and File Create
-2023-02-04T23:02:42.422Z [my-bank-app] info: GET /account
-2023-02-04T23:02:47.688Z [my-bank-app] info: POST /account {"id":1,"name":"Rafael","balance":1000}
-2023-02-04T23:02:55.726Z [my-bank-app] info: POST /account {"id":2,"name":"Rafael Alex","balance":1000}
-2023-02-04T23:03:10.040Z [my-bank-app] info: PUT /account {"id":1,"name":"Ralexandre00001","balance":100}
-2023-02-04T23:03:14.967Z [my-bank-app] info: GET /account
-2023-02-04T23:03:44.303Z [my-bank-app] info: GET /account
-2023-02-04T23:05:15.659Z [my-bank-app] info: API Started!
-2023-02-04T23:06:15.522Z [my-bank-app] info: API Started!
-2023-02-04T23:06:18.948Z [my-bank-app] error: Name e Balance são obrigatórios!
-2023-02-04T23:06:54.196Z [my-bank-app] info: API Started!
-2023-02-04T23:07:00.303Z [my-bank-app] info: API Started!
-2023-02-04T23:07:04.111Z [my-bank-app] info: API Started!
-2023-02-04T23:07:05.283Z [my-bank-app] info: API Started!
-2023-02-04T23:07:58.740Z [my-bank-app] info: PUT /account {"id":1,"name":"Ralexandre00001","balance":100,"TU":999}
-2023-02-04T23:08:46.254Z [my-bank-app] info: GET /account
-2023-02-04T23:09:22.614Z [my-bank-app] info: GET /account
-2023-02-04T23:09:30.581Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:04:13.676Z [my-bank-app] info: API Started!
-2023-02-06T22:05:51.659Z [my-bank-app] info: API Started!
-2023-02-06T22:06:15.044Z [my-bank-app] info: API Started!
-2023-02-06T22:06:27.419Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:06:43.560Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:07:13.037Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:08:10.732Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:23:21.661Z [my-bank-app] info: API Started!
-2023-02-06T22:23:33.343Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:23:37.467Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:24:43.854Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:25:53.220Z [my-bank-app] error: Unexpected end of JSON input
-2023-02-06T22:32:06.429Z [my-bank-app] info: API Started and File Create
-2023-02-06T22:32:18.871Z [my-bank-app] info: GET /account
-2023-02-06T22:32:22.978Z [my-bank-app] info: POST /account {"id":1,"name":"Rafael Alex","balance":1000}
-2023-02-06T22:32:26.804Z [my-bank-app] info: GET /account
-2023-02-06T22:35:35.639Z [my-bank-app] info: POST /account {"id":2,"name":"Rafael Alexandre","balance":8000}
-2023-02-06T22:35:39.011Z [my-bank-app] info: GET /account
-2023-02-06T22:35:45.687Z [my-bank-app] info: GET /account/id undefined
-2023-02-06T23:01:20.514Z [my-bank-app] info: API Started!
-2023-02-06T23:04:48.521Z [my-bank-app] info: POST /account {"id":3,"name":"Alexandre","balance":200}
-2023-02-06T23:04:58.596Z [my-bank-app] info: GET /account
-2023-02-07T22:16:16.487Z [my-bank-app] info: API Started!
-2023-02-07T22:16:33.494Z [my-bank-app] info: API Started!
-2023-02-07T22:16:34.825Z [my-bank-app] info: API Started!
-2023-02-07T22:16:42.912Z [my-bank-app] info: API Started!
-2023-02-07T22:16:45.111Z [my-bank-app] info: API Started!
-2023-02-07T22:17:31.765Z [my-bank-app] info: GET /account
-2023-02-07T22:17:58.059Z [my-bank-app] info: POST /account {"id":4,"name":"Ralexandre","balance":2000}
-2023-02-07T22:18:02.450Z [my-bank-app] info: GET /account
-2023-02-07T22:19:57.690Z [my-bank-app] info: API Started!
-2023-02-07T22:19:59.945Z [my-bank-app] info: API Started!
-2023-02-07T22:20:21.772Z [my-bank-app] info: API Started!
-2023-02-07T22:20:27.165Z [my-bank-app] info: API Started!
-2023-02-07T22:20:32.059Z [my-bank-app] info: API Started!
-2023-02-07T22:20:35.685Z [my-bank-app] info: API Started!
-2023-02-07T22:20:42.887Z [my-bank-app] info: API Started!
-2023-02-07T22:20:43.921Z [my-bank-app] info: API Started!
-2023-02-07T22:21:46.429Z [my-bank-app] info: API Started!
-2023-02-07T22:21:47.709Z [my-bank-app] info: API Started!
-2023-02-07T22:21:54.448Z [my-bank-app] info: GET /account
-2023-02-07T22:22:12.774Z [my-bank-app] info: API Started!
-2023-02-07T22:22:49.510Z [my-bank-app] info: API Started!
-2023-02-07T22:22:53.974Z [my-bank-app] info: API Started!
-2023-02-07T22:23:02.787Z [my-bank-app] info: API Started!
-2023-02-07T22:23:10.112Z [my-bank-app] info: API Started!
-2023-02-07T22:23:14.219Z [my-bank-app] info: API Started!
-2023-02-07T22:23:15.810Z [my-bank-app] info: API Started!
-2023-02-07T22:23:42.322Z [my-bank-app] info: API Started!
-2023-02-07T22:23:47.924Z [my-bank-app] info: API Started!
-2023-02-07T22:23:52.402Z [my-bank-app] info: API Started!
-2023-02-07T22:23:57.759Z [my-bank-app] info: API Started!
-2023-02-07T22:23:59.212Z [my-bank-app] info: API Started!
-2023-02-07T22:24:04.929Z [my-bank-app] info: API Started!
-2023-02-07T22:24:08.137Z [my-bank-app] info: API Started!
-2023-02-07T22:24:10.448Z [my-bank-app] info: API Started!
-2023-02-07T22:24:13.714Z [my-bank-app] info: API Started!
-2023-02-07T22:24:22.246Z [my-bank-app] info: API Started!
-2023-02-07T22:24:26.895Z [my-bank-app] info: API Started!
-2023-02-07T22:24:36.286Z [my-bank-app] info: API Started!
-2023-02-07T22:24:44.952Z [my-bank-app] info: API Started!
-2023-02-07T22:24:48.034Z [my-bank-app] info: API Started!
-2023-02-07T22:24:51.683Z [my-bank-app] info: API Started!
-2023-02-07T22:25:52.663Z [my-bank-app] info: API Started!
-2023-02-07T22:25:55.282Z [my-bank-app] info: API Started!
-2023-02-07T22:26:01.896Z [my-bank-app] info: API Started!
-2023-02-07T22:26:06.819Z [my-bank-app] info: API Started!
-2023-02-07T22:26:11.097Z [my-bank-app] info: API Started!
-2023-02-07T22:26:12.893Z [my-bank-app] info: API Started!
-2023-02-07T22:26:16.170Z [my-bank-app] info: API Started!
-2023-02-07T22:26:31.404Z [my-bank-app] info: API Started!
-2023-02-07T22:26:38.000Z [my-bank-app] info: API Started!
-2023-02-07T22:26:53.516Z [my-bank-app] info: API Started!
-2023-02-07T22:26:55.461Z [my-bank-app] info: API Started!
-2023-02-07T22:27:02.203Z [my-bank-app] info: API Started!
-2023-02-07T22:27:03.628Z [my-bank-app] info: API Started!
-2023-02-07T22:27:05.163Z [my-bank-app] info: API Started!
-2023-02-07T22:27:09.854Z [my-bank-app] info: API Started!
-2023-02-07T22:27:11.174Z [my-bank-app] info: API Started!
-2023-02-07T22:27:12.823Z [my-bank-app] info: API Started!
-2023-02-07T22:27:15.080Z [my-bank-app] info: API Started!
-2023-02-07T22:27:20.450Z [my-bank-app] info: API Started!
-2023-02-07T22:27:22.303Z [my-bank-app] info: API Started!
-2023-02-07T22:27:24.699Z [my-bank-app] info: API Started!
-2023-02-07T22:27:31.176Z [my-bank-app] info: API Started!
-2023-02-07T22:27:39.017Z [my-bank-app] info: API Started!
-2023-02-07T22:27:42.543Z [my-bank-app] info: API Started!
-2023-02-07T22:27:45.649Z [my-bank-app] info: API Started!
-2023-02-07T22:28:03.991Z [my-bank-app] info: API Started!
-2023-02-07T22:28:09.905Z [my-bank-app] info: API Started!
-2023-02-07T22:28:12.078Z [my-bank-app] info: API Started!
-2023-02-07T22:28:20.518Z [my-bank-app] info: API Started!
-2023-02-07T22:28:39.499Z [my-bank-app] info: API Started!
-2023-02-07T22:28:46.934Z [my-bank-app] info: API Started!
-2023-02-07T22:29:05.534Z [my-bank-app] info: API Started!
-2023-02-07T22:29:12.817Z [my-bank-app] info: API Started!
-2023-02-07T22:29:15.740Z [my-bank-app] info: API Started!
-2023-02-07T22:29:20.038Z [my-bank-app] info: API Started!
-2023-02-07T22:29:29.643Z [my-bank-app] info: API Started!
-2023-02-07T22:29:46.069Z [my-bank-app] info: GET /account/id {"id":3,"name":"Alexandre","balance":200}
-2023-02-07T22:29:53.647Z [my-bank-app] info: DELETE /account/id 1
-2023-02-07T22:30:02.511Z [my-bank-app] info: PUT /account {"id":2,"name":"Ralexandre00001","balance":100}
-2023-02-07T22:30:06.532Z [my-bank-app] info: GET /account
-2023-02-07T22:30:23.321Z [my-bank-app] info: GET /account
-2023-02-07T22:30:30.612Z [my-bank-app] info: PUT /account {"id":3,"name":"Ralexandre00001","balance":100}
-2023-02-07T22:30:35.152Z [my-bank-app] info: GET /account
-2023-02-07T22:30:42.750Z [my-bank-app] info: GET /account
-2023-02-07T22:30:57.908Z [my-bank-app] info: GET /account
-2023-02-07T22:31:19.312Z [my-bank-app] error: ENOENT: no such file or directory, open 'accounts.json'
-2023-02-07T22:31:31.444Z [my-bank-app] info: API Started and File Create
-2023-02-07T22:31:51.823Z [my-bank-app] info: GET /account
-2023-02-07T22:31:56.344Z [my-bank-app] info: POST /account {"id":1,"name":"Ralexandre","balance":2000}
-2023-02-07T22:32:03.348Z [my-bank-app] info: POST /account {"id":2,"name":"Rafael","balance":2000}
-2023-02-07T22:32:09.406Z [my-bank-app] info: POST /account {"id":3,"name":"Alexandre","balance":2000}
-2023-02-07T22:32:12.440Z [my-bank-app] info: GET /account
-2023-02-07T22:34:51.909Z [my-bank-app] info: PUT /account {"id":1,"name":"Ralexandre00001","balance":100}
-2023-02-07T22:34:55.739Z [my-bank-app] info: GET /account
-2023-02-07T22:35:33.668Z [my-bank-app] info: API Started!
-2023-02-07T22:35:39.010Z [my-bank-app] info: API Started!
-2023-02-07T22:36:22.272Z [my-bank-app] info: API Started and File Create
-2023-02-07T22:36:33.310Z [my-bank-app] info: GET /account
-2023-02-07T22:36:37.783Z [my-bank-app] info: POST /account {"id":1,"name":"Alexandre","balance":2000}
-2023-02-07T22:36:46.768Z [my-bank-app] info: POST /account {"id":2,"name":"Rafael","balance":1000}
-2023-02-07T22:36:49.878Z [my-bank-app] info: GET /account
-2023-02-07T22:36:55.033Z [my-bank-app] info: GET /account/id {"id":1,"name":"Alexandre","balance":2000}
-2023-02-07T22:37:01.567Z [my-bank-app] info: DELETE /account/id 1
-2023-02-07T22:37:05.700Z [my-bank-app] info: GET /account
-2023-02-07T22:37:16.257Z [my-bank-app] info: POST /account {"id":3,"name":"Rafael Alexandre","balance":3000}
-2023-02-07T22:37:18.662Z [my-bank-app] info: GET /account
-2023-02-07T22:37:28.365Z [my-bank-app] info: PUT /account {"id":2,"name":"Ralexandre00001","balance":100}
-2023-02-07T22:37:32.233Z [my-bank-app] info: GET /account
-2023-02-07T22:38:49.540Z [my-bank-app] info: API Started!
-2023-02-07T22:38:50.775Z [my-bank-app] info: API Started!
-2023-02-07T22:38:51.649Z [my-bank-app] info: API Started!
-2023-02-07T22:40:28.016Z [my-bank-app] info: PATCH /account/updatebalance {"id":3,"balance":50000}
-2023-02-07T22:40:32.098Z [my-bank-app] info: GET /account
-2023-02-07T22:52:51.940Z [my-bank-app] info: API Started!
-2023-02-07T22:53:02.039Z [my-bank-app] error: readFile is not defined
-2023-02-07T22:53:24.729Z [my-bank-app] info: API Started!
-2023-02-07T22:53:30.263Z [my-bank-app] info: API Started!
-2023-02-07T22:53:31.641Z [my-bank-app] info: API Started!
-2023-02-07T22:53:36.339Z [my-bank-app] info: POST /account {"id":4,"name":"Rafael Alexandre 1234","balance":3000}
-2023-02-07T22:53:40.917Z [my-bank-app] info: GET /account
+2023-02-08T23:03:09.852Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:03:33.248Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:03:57.408Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:17.777Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:19.493Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:22.288Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:24.666Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:26.391Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:31.113Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:33.617Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:34.798Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:36.544Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:37.457Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:43.877Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:44.745Z [my-bank-app] error: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-02-08T23:04:50.800Z [my-bank-app] info: API Started and File Create
+2023-02-08T23:05:00.664Z [my-bank-app] error: Registro não encontrado.
+2023-02-08T23:05:05.140Z [my-bank-app] info: GET /account
+2023-02-08T23:05:17.874Z [my-bank-app] info: POST /account {"id":1,"name":"Rafael Alexandre","balance":8000}
+2023-02-08T23:05:21.202Z [my-bank-app] info: GET /account
+2023-02-08T23:06:15.694Z [my-bank-app] info: API Started!
+2023-02-08T23:06:55.108Z [my-bank-app] info: API Started!
+2023-02-08T23:06:56.580Z [my-bank-app] info: API Started!
+2023-02-08T23:07:00.026Z [my-bank-app] info: API Started!
+2023-02-08T23:07:01.381Z [my-bank-app] info: API Started!
+2023-02-08T23:07:05.722Z [my-bank-app] info: GET /account
+2023-02-08T23:07:22.003Z [my-bank-app] info: POST /account {"id":2,"name":"Alexandre","balance":4000}
+2023-02-08T23:07:24.694Z [my-bank-app] info: GET /account
+2023-02-08T23:40:46.369Z [my-bank-app] info: API Started!
+2023-02-08T23:40:57.220Z [my-bank-app] info: GET /account
+2023-02-08T23:41:00.162Z [my-bank-app] error: account is not defined
+2023-02-08T23:41:06.372Z [my-bank-app] info: DELETE /account/id 1
+2023-02-08T23:41:12.154Z [my-bank-app] info: PUT /account {"id":2,"name":"Ralexandre00001","balance":100}
+2023-02-08T23:41:16.227Z [my-bank-app] info: GET /account
+2023-02-08T23:41:24.251Z [my-bank-app] error: Registro não encontrado.
+2023-02-08T23:41:30.474Z [my-bank-app] info: PATCH /account/updatebalance {"id":2,"balance":50000}
+2023-02-08T23:41:44.205Z [my-bank-app] info: GET /account
+2023-02-08T23:42:14.871Z [my-bank-app] info: API Started!
+2023-02-08T23:42:16.531Z [my-bank-app] info: API Started!
+2023-02-08T23:42:43.110Z [my-bank-app] info: API Started and File Create
+2023-02-08T23:42:48.455Z [my-bank-app] info: GET /account
+2023-02-08T23:42:54.078Z [my-bank-app] info: POST /account {"id":1,"name":"Alexandre","balance":4000}
+2023-02-08T23:43:06.081Z [my-bank-app] info: POST /account {"id":2,"name":"Rafael","balance":8000}
+2023-02-08T23:43:10.462Z [my-bank-app] info: GET /account
+2023-02-08T23:43:16.675Z [my-bank-app] info: PATCH /account/updatebalance {"id":2,"balance":50000}
