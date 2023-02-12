@@ -5,6 +5,7 @@ import { promises as fs } from "fs";
 import cors from "cors";
 import swaggerUI from "swagger-ui-express";
 import { swaggerDocument } from "./Doc.js";
+import basicAuth from "express-basic-auth";
 
 const { readFile, writeFile } = fs;
 
@@ -34,9 +35,48 @@ global.logger = winston.createLogger({
 const app = express();
 app.use(express.json());
 app.use(cors());
-app.use("/doc", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 app.use(express.static("public"));
-app.use("/account", accountRouter);
+app.use("/doc", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+
+function getRole(username) {
+    if (username == 'admin') {
+        return 'admin';
+    } else if (username == 'rafael') {
+        return 'role1';
+    }
+}
+
+function authorize(...allowed) {
+
+    const isAllowed = role => allowed.indexOf(role) > -1;
+
+    return (req, res, next) => {
+        if (req.auth.user) {
+            const role = getRole(req.auth.user);
+
+            if (isAllowed(role)) {
+                next();
+            } else {
+                res.status(401).send('Role not allowed');
+            }
+        } else {
+            res.status(403).send('User not found')
+        }
+    }
+}
+
+app.use(basicAuth({
+    authorizer: (username, password) => {
+        const userMatches = basicAuth.safeCompare(username, 'admin')
+        const passwordMatches = basicAuth.safeCompare(password, 'admin')
+        const user2Matches = basicAuth.safeCompare(username, 'rafael')
+        const password2Matches = basicAuth.safeCompare(password, '1234')
+
+        return userMatches && passwordMatches || user2Matches && password2Matches;
+    }
+}));
+
+app.use("/account", authorize('admin', 'role1'), accountRouter);
 app.listen(3000, async () => {
 
     try {
