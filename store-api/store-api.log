@@ -1,0 +1,3 @@
+2023-02-20T23:34:40.144Z [store-api] error POST  - Name, CPF, Phone, Email and Address are necessary!
+2023-02-21T00:00:03.822Z [store-api] error POST  - syntax error at or near "INT"
+2023-02-21T00:01:01.180Z [store-api] info POST /client - {"name":"Eu","cpf":"1234456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X3, num 3"}
