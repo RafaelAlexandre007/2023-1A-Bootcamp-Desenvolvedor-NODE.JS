@@ -1,3 +1,32 @@
 2023-02-20T23:34:40.144Z [store-api] error POST  - Name, CPF, Phone, Email and Address are necessary!
 2023-02-21T00:00:03.822Z [store-api] error POST  - syntax error at or near "INT"
 2023-02-21T00:01:01.180Z [store-api] info POST /client - {"name":"Eu","cpf":"1234456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X3, num 3"}
+2023-02-21T00:06:20.039Z [store-api] info POST /client - {"name":"Eu novamente","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-21T00:07:09.197Z [store-api] info POST /client - {"name":"Eu novamente","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-21T00:07:33.487Z [store-api] info POST /client - {"name":"Eu novamente","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-21T23:12:24.811Z [store-api] error POST  - conn is not defined
+2023-02-21T23:14:16.906Z [store-api] error POST  - conn is not defined
+2023-02-21T23:15:22.834Z [store-api] error POST  - res is not defined
+2023-02-21T23:15:43.943Z [store-api] info POST /client - {"name":"É nós novamente","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-21T23:16:03.804Z [store-api] error POST  - Cannot read properties of undefined (reading 'release')
+2023-02-21T23:16:18.125Z [store-api] error POST  - conn is not defined
+2023-02-21T23:16:39.746Z [store-api] info POST /client - {"name":"É nós novamente","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-21T23:25:24.049Z [store-api] info POST /client - {"name":"Clente teste","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-21T23:26:10.934Z [store-api] info GET /client
+2023-02-21T23:37:15.795Z [store-api] error GET  - id is not defined
+2023-02-21T23:37:23.828Z [store-api] error GET  - id is not defined
+2023-02-21T23:37:28.424Z [store-api] error GET  - id is not defined
+2023-02-21T23:37:48.272Z [store-api] error GET  - id is not defined
+2023-02-21T23:38:02.632Z [store-api] error GET  - id is not defined
+2023-02-21T23:45:30.224Z [store-api] error DELETE  - id is not defined
+2023-02-21T23:45:35.328Z [store-api] info GET /client
+2023-02-21T23:46:22.243Z [store-api] error DELETE  - id is not defined
+2023-02-21T23:46:59.189Z [store-api] error DELETE  - id is not defined
+2023-02-21T23:47:06.668Z [store-api] error DELETE  - id is not defined
+2023-02-22T00:04:03.417Z [store-api] info POST /client - {"client_id":13,"name":"Clente teste novament ","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X11, num 11"}
+2023-02-22T00:05:28.624Z [store-api] info PUT /client - undefined
+2023-02-22T00:06:49.403Z [store-api] info PUT /client - undefined
+2023-02-22T00:06:53.275Z [store-api] info POST /client - {"client_id":14,"name":"Clente teste novament ","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X11, num 11"}
+2023-02-22T00:07:04.476Z [store-api] info GET /client
+2023-02-22T00:07:22.251Z [store-api] info PUT /client - undefined
+2023-02-22T00:07:31.201Z [store-api] error GET  - id is not defined
