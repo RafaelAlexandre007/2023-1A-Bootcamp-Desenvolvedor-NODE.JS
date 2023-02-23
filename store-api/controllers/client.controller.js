@@ -1,4 +1,3 @@
-import clientService from "../services/client.service.js";
 import ClientService from "../services/client.service.js";
 
 async function createClient(req, res, next) {

@@ -30,3 +30,27 @@
 2023-02-22T00:07:04.476Z [store-api] info GET /client
 2023-02-22T00:07:22.251Z [store-api] info PUT /client - undefined
 2023-02-22T00:07:31.201Z [store-api] error GET  - id is not defined
+2023-02-23T22:27:52.223Z [store-api] error POST  - SupplierService is not defined
+2023-02-23T22:28:26.849Z [store-api] error POST  - SupplierService is not defined
+2023-02-23T22:30:16.366Z [store-api] error POST  - SupplierService is not defined
+2023-02-23T22:32:12.008Z [store-api] error POST  - SupplierService is not defined
+2023-02-23T22:32:39.041Z [store-api] error POST  - SupplierService is not defined
+2023-02-23T22:33:34.731Z [store-api] error GET  - SupplierRepository.getSuppliers is not a function
+2023-02-23T22:33:38.264Z [store-api] error GET  - SupplierRepository.getSuppliers is not a function
+2023-02-23T22:34:01.223Z [store-api] error GET  - SupplierRepository.getSuppliers is not a function
+2023-02-23T22:34:33.723Z [store-api] info GET /supplier
+2023-02-23T22:34:57.962Z [store-api] info GET /supplier
+2023-02-23T22:35:03.075Z [store-api] error POST  - SupplierService is not defined
+2023-02-23T22:37:37.024Z [store-api] error POST  - ClientService is not defined
+2023-02-23T22:37:49.204Z [store-api] info POST /client - {"client_id":15,"name":"Clente teste novament ","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X11, num 11"}
+2023-02-23T22:38:04.332Z [store-api] info POST /client - {"client_id":16,"name":"Clente teste novament ","cpf":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X11, num 11"}
+2023-02-23T22:38:40.140Z [store-api] error GET  - supplierService is not defined
+2023-02-23T22:38:47.524Z [store-api] info POST /supplier - {"supplier_id":1,"name":"Fornecedor teste","cnpj":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-23T22:38:53.723Z [store-api] error GET  - supplierService is not defined
+2023-02-23T22:39:54.508Z [store-api] info GET /supplier
+2023-02-23T22:44:47.544Z [store-api] info DELETE /supplier
+2023-02-23T22:44:53.981Z [store-api] info GET /supplier
+2023-02-23T22:44:58.588Z [store-api] info POST /supplier - {"supplier_id":2,"name":"Fornecedor teste","cnpj":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-23T22:45:08.317Z [store-api] info POST /supplier - {"supplier_id":3,"name":"Fornecedor teste 1","cnpj":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-23T22:45:12.411Z [store-api] info POST /supplier - {"supplier_id":4,"name":"Fornecedor teste 2","cnpj":"1235456564456","phone":"09887979797","email":"kjdsalkjdl@kscljclsdcsdc","address":"Rua X10, num 3"}
+2023-02-23T22:45:15.127Z [store-api] info GET /supplier
