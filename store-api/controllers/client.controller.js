@@ -22,7 +22,7 @@ async function createClient(req, res, next) {
 async function getClients(req, res, nex) {
     try {
 
-        res.send(await clientService.getClients());
+        res.send(await ClientService.getClients());
         logger.info("GET /client");
     } catch (error) {
         nex(error)
@@ -32,8 +32,8 @@ async function getClients(req, res, nex) {
 async function getClient(req, res, nex) {
     try {
 
-        res.send(await clientService.getClient(req.params.id));
-        logger.info(`GET /client/${id}`);
+        res.send(await ClientService.getClient(req.params.id));
+        logger.info(`GET /client/${req.params.id}`);
     } catch (error) {
         nex(error)
     }
@@ -41,7 +41,7 @@ async function getClient(req, res, nex) {
 
 async function deleteClient(req, res, nex) {
     try {
-        await clientService.deleteClient(req.params.id);
+        await ClientService.deleteClient(req.params.id);
         res.end();
         logger.info("DELETE /client")
     } catch (error) {
@@ -61,7 +61,7 @@ async function updateClient(req, res, nex) {
         client = await ClientService.updateClient(client)
         res.send(client);
 
-        logger.info(`PUT /client - ${JSON.stringify(client)}`);
+        logger.info("PUT /client");
     } catch (error) {
         nex(error)
     }

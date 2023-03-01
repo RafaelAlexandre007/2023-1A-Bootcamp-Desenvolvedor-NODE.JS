@@ -4,7 +4,7 @@ import winston from "winston";
 import clientsRouter from "./routes/client.route.js";
 import productsRouter from "./routes/product.route.js";
 import suppliersRouter from "./routes/supplier.route.js";
-import salesRouter from "./routes/sale.js";
+import salesRouter from "./routes/sale.route.js";
 
 
 const { combine, timestamp, label, printf } = winston.format;
