@@ -1,5 +1,6 @@
-import pg from "pg";
-
+//import pg from "pg";
+import Sequelize from "sequelize";
+/*
 async function connect(params) {
 
     if (global.connection) {
@@ -13,7 +14,18 @@ async function connect(params) {
 
     return pool.connect();
 }
+    export {
+        connect
+    }
+*/
+const sequelize = new Sequelize(
+    "postgres://ewpjaaue:FUBC8OgmJkrtGdPOYYMnf0QI4SOVWjCR@mouse.db.elephantsql.com/ewpjaaue",
+    {
+        dialect: "postgres",
+        define: {
+            timestamps: false
+        }
+    }
+);
 
-export {
-    connect
-}
+export default sequelize;
